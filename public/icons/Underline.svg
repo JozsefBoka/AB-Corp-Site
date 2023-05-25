@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="930.867" height="19.151" viewBox="0 0 930.867 19.151">
+  <defs>
+    <clipPath id="clip-underline">
+      <rect id="rect" x="0" y="0" width="0" height="1">
+        <animate 
+          id="anim"
+          attributeName="width" 
+          dur="1s" 
+          fill="freeze"
+          calcMode="spline"
+          keyTimes="0; 1"
+          keySplines="0.5,0,0.5,1"
+          values="0;1" 
+        />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clip" clipPathUnits="objectBoundingBox">
+      <use href="#Path_9" clip-path="url(#clip-underline)" />
+    </clipPath>
+
+    <path id="Path_9" data-name="Path 9" d="M930.858,5.3c-17.824,5.912-91.48,5.4-153.558,3.6-29.126-.845-46.656-4.337-70.389-4.314-41.807.041-40.561,3.7-76.77,5.033-32.249.508-43.978-1.29-63.991-2.157-107.337,7.431-258.065,6.14-383.9,4.314C141.758,15.8,81.647,22.173,3.1,17.52c-8.632-3.151,1.744-5.232,19.2-7.19,23.982-.538,31.172.81,31.991,2.876C129.237,8.8,238.942-.481,329.416,7.454c19.8-.745,53.793-2.6,76.779-.719C530.92-1.691,808.891-2.258,930.858,5.3" transform="translate(0 0)" fill="#00f562" fill-rule="evenodd"/>
+  </defs>
+</svg>
