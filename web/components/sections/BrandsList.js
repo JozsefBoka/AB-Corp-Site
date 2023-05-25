@@ -33,7 +33,7 @@ const BrandTile = (props) => {
         getData().catch(console.error)
         
 
-    },[btnLink])
+    },[])
 
 
     const {
