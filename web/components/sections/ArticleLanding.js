@@ -1,7 +1,13 @@
+import pkg from '@portabletext/react';
+
+
 import { getStyles } from "../../utils/theme"
-import { PortableText } from '@portabletext/react'
+// import { PortableText } from '@portabletext/react'
 import { getPortableTextComponents } from "../../utils/portableTextComponents"
 import { isValidDate, monthNames } from "../../utils/dateHelpers"
+
+const { PortableText } = pkg;
+
 
 const ArticleLanding = (props) => {
     const {

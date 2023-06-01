@@ -5,7 +5,7 @@ import { getStyles } from "../../utils/theme"
 import { PortableText } from '@portabletext/react'
 import { getPortableTextComponents } from "../../utils/portableTextComponents"
 import { getSectionPaddingStyles } from "../../utils/sectionPadding"
-
+    
 
 // todo should be a carousel on mobile (probably tablet too)
 
